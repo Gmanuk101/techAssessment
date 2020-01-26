@@ -1,4 +1,10 @@
-
+#Author:  Graeme Phillips
+# Date: 26/01/2020
+# created a simple rest client to grab json values and store in variable for later consumption
+# I started with this file on it's own, then could not find out how to pass from this to another file.
+# a strange effect occured, when this code was placed (and is duplicated in) into SeleniumSection.rb it works
+# however If I do not reference THIS file from SeleniumSection.rb AND have the duplicated code it work, else it doesn't.
+# very strange indeed and I couldn't figure out why - sorry.
 
   #simpleRest.rb
   require 'RestClient'
