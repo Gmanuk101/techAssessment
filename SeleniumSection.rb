@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 require_relative 'ObjectModel_SeleniumSection'
 require_relative 'PuzzleSection'
 
-#require_relative 'simpleRest'
+require_relative 'simple_rest'
 require_relative 'PuzzleSection'
 
 #simpleRest.rb
