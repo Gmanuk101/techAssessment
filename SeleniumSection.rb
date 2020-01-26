@@ -1,3 +1,7 @@
+#Author:  Graeme Phillips
+# Date: 26/01/2020
+
+
 # frozen_string_literal: true
 
 require 'selenium-webdriver'

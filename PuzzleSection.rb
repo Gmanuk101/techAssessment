@@ -1,3 +1,6 @@
+#Author:  Graeme Phillips
+# Date: 26/01/2020
+
 require 'rspec'
 require_relative 'ObjectModel_SeleniumSection'
 
