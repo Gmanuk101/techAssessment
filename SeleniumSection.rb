@@ -4,7 +4,7 @@ require 'selenium-webdriver'
 require_relative 'ObjectModel_SeleniumSection'
 require_relative 'PuzzleSection'
 
-require_relative 'simpleRest'
+#require_relative 'simpleRest'
 require_relative 'PuzzleSection'
 
 #simpleRest.rb
@@ -17,7 +17,6 @@ class SeleniumSection
   #I think this is a bit hacky, but I've included the code for the rest client at the top, as I had difficulty in
   # outputing the 'Luke' 'Skywalker' values from a separate class
   # in this instance I would get the test 'working' but then speak to a Ruby developer, afterwards then do it a more elegant way
-  # perhaps hashes are not correct, but after a good amount of headScratching it worked.
   url = 'https://swapi.co/api/people/1/'
   def import_data(url)
     string = RestClient.get(url)
@@ -79,6 +78,8 @@ class SeleniumSection
   else
     puts 'Test failed'
   end
+
+
 
   # click on submit button
   # browser.state_dropDown.click
